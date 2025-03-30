@@ -11,10 +11,11 @@ export default function Navigasi() {
         <div className="w-full border-2 p-5 flex items-center justify-between">
             <IoMdSearch size={25} />
             <div className="flex flex-row gap-4 items-center">
-                <div className="flex flex-row gap-2 items-center cursor-pointer border-2 p-2 rounded-4xl ">
-                    <FaGithub size={20} />
-                    <p className="text-xs">Code</p>
-                </div>
+            
+                    <a href="https://github.com/yudha556/simple-dashboard-" className="flex flex-row gap-2 items-center cursor-pointer border-2 p-2 rounded-4xl ">
+                        <FaGithub size={20} />
+                        <p className="text-xs">Code</p>
+                    </a>
                 <IoSunnyOutline size={25} />
                 <IoIosNotifications size={25} />
                 <button className="flex justify-center items-center p-1 border-2 rounded-full hover:text-blue-500 cursor-pointer">
