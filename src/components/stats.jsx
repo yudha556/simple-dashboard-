@@ -1,13 +1,31 @@
 "use client";
 
 import React from "react";
-import ApexCharts from "apexcharts";
+import dynamic from "next/dynamic";
+
+const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
 const SplineAreaChart = () => {
   const options = {
     chart: {
       type: "area",
       height: 350,
+      toolbar: false,
+      background: "transparent",
+    },
+    fill: {
+      opacity: 0.2,
+      height: 50,
+      type: "area",
+      colors: ["#836FFF", "#F3C623"],
+      dropShadow: {
+        enabled: true,
+        top: 5,
+        left: 0,
+        blur: 8,
+        opacity: 0.7,
+        color: "#000000"
+      }
     },
     dataLabels: {
       enabled: false,
