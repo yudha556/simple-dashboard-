@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Admin Dashboard - Sistem Manajemen Administrasi
 
-First, run the development server:
+## 📌 Deskripsi Proyek
+Sebuah aplikasi dashboard admin yang modern khusus desktop untuk mengelola berbagai aspek administratif dengan antarmuka yang intuitif dan mudah digunakan.
 
+## ✨ Fitur Utama
+- 🔐 Sistem autentikasi yang aman
+- 📊 Visualisasi data dengan grafik interaktif
+- 👥 Manajemen pengguna
+- 📝 Pengelolaan konten
+- 📈 Laporan dan analitik
+- 🎨 Tema yang dapat disesuaikan
+- 📱 Tampilan responsif untuk semua perangkat
+
+## 🚀 Cara Menggunakan
+1. Clone repositori ini
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone  https://github.com/yudha556/simple-dashboard-.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependensi yang diperlukan
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Jalankan aplikasi
+```bash
+npm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Teknologi yang Digunakan
+- Next.js
+- Tailwindcss 
+- ApexChart
+- ReactIcons
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 💡 Persyaratan Sistem
+- Node.js versi 14.0 atau lebih tinggi
+- NPM versi 6.0 atau lebih tinggi
+- Browser modern (Chrome, Firefox, Safari, Edge)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Kontribusi
+Kami sangat menghargai kontribusi Anda! Silakan buat pull request untuk perbaikan atau penambahan fitur.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 Lisensi
+Proyek ini dilisensikan di bawah MIT License - lihat file LICENSE untuk detail lebih lanjut.
 
-## Deploy on Vercel
+## 📞 Dukungan
+Jika Anda memiliki pertanyaan atau mengalami masalah, silakan buat issue baru atau hubungi kami di support@admin-dashboard.com
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⭐ Berikan Bintang
+Jika Anda menyukai proyek ini, berikan bintang untuk mendukung pengembangan lebih lanjut!
