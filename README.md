@@ -5,13 +5,9 @@
 Sebuah aplikasi dashboard admin yang modern khusus desktop untuk mengelola berbagai aspek administratif dengan antarmuka yang intuitif dan mudah digunakan.
 
 ## ✨ Fitur Utama
-- 🔐 Sistem autentikasi yang aman
-- 📊 Visualisasi data dengan grafik interaktif
-- 👥 Manajemen pengguna
-- 📝 Pengelolaan konten
-- 📈 Laporan dan analitik
-- 🎨 Tema yang dapat disesuaikan
-- 📱 Tampilan responsif untuk semua perangkat
+- Desain UI/UX
+- Dashboard Statistik
+- Informasi Penggunaan Teknologi di Dalamnya
 
 ## 🚀 Cara Menggunakan
 1. Clone repositori ini
