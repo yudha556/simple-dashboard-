@@ -1,5 +1,5 @@
 import { GiExpense } from "react-icons/gi";
-import { IoWalletSharp } from "react-icons/io5";
+import { IoWalletOutline } from "react-icons/io5";
 import { FaChartLine } from "react-icons/fa";
 import Stats from '@/components/stats';
 import BarChart from '@/components/barChart';
@@ -8,44 +8,44 @@ export default function Page() {
   return (
     <div className="w-full grid grid-cols-3 grid-rows-[auto,auto,1fr,auto] gap-6 ">
       {/* Income */}
-      <div className="w-full rounded-xl flex flex-row justify-between items-center p-5 gap-7 shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-white">
+      <div className="w-full rounded-xl flex flex-row justify-between items-center p-5 gap-7 shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-grey">
         <div className="flex flex-col gap-1">
           <h1 className="text-4xl font-semibold">Income</h1>
           <p className="text-xl font-normal">1.3240.340</p>
         </div>
-        <IoWalletSharp size={30} />
+        <IoWalletOutline size={30} className="text-green"/>
       </div>
 
       {/* Expenses */}
-      <div className="w-full rounded-xl flex flex-row justify-between items-center p-5 gap-7 shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-white">
+      <div className="w-full rounded-xl flex flex-row justify-between items-center p-5 gap-7 shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-grey">
         <div className="flex flex-col gap-1">
           <h1 className="text-4xl font-semibold">Expenses</h1>
           <p className="text-xl font-normal">500.240</p>
         </div>
-        <GiExpense size={30} />
+        <GiExpense size={30} className="text-red"/>
       </div>
 
       {/* Profit */}
-      <div className="w-full rounded-xl flex flex-row justify-between items-center p-5 gap-7 shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-white">
+      <div className="w-full rounded-xl flex flex-row justify-between items-center p-5 gap-7 shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-grey">
         <div className="flex flex-col gap-1">
           <h1 className="text-4xl font-semibold">Profit</h1>
           <p className="text-xl font-normal">824.100</p>
         </div>
-        <FaChartLine size={30} />
+        <FaChartLine size={30} className="text-gold"/>
       </div>
 
       {/* Stats */}
-      <div className="w-full rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-white col-span-2 row-span-3">
+      <div className="w-full rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-grey col-span-2 row-span-3">
         <Stats />
       </div>
 
       {/* Bar Chart */}
-      <div className="w-full rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-white row-span-3">
+      <div className="w-full rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-grey row-span-3">
         <BarChart />
       </div>
 
       {/* Extra Section */}
-      <div className="w-full  rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-white col-span-3 row-span-4 ">
+      <div className="w-full  rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-grey col-span-3 row-span-4 ">
         <div className="overflow-x-auto">
           <table className="table-auto w-full border-collapse border border-gray-300">
             <thead>
