@@ -8,10 +8,6 @@ export default function Navigasi({ isOpen }) {
         <div className={`w-full rounded-b-3xl p-5 flex items-center justify-between bg-[##F5F7F8] backdrop-blur-sm bg-opacity-30  fixed top-0 left-0 z-0   transform transition-all duration-500 ${isOpen ? "pl-35 pr-10" : "pl-30 pr-20"} `}> 
             <IoMdSearch size={25} />
             <div className="flex flex-row gap-4 items-center">
-                <a href="https://github.com/yudha556/simple-dashboard-" className="flex flex-row gap-2 items-center cursor-pointer border-2 p-2 rounded-4xl ">
-                    <FaGithub size={20} />
-                    <p className="text-xs">Code</p>
-                </a>
                 <IoSunnyOutline size={25} className="text-gold"/>
                             <div className="relative group">
                                 <IoIosNotifications size={25} className="cursor-pointer" />
