@@ -61,7 +61,7 @@ export default function Sidebar({ isOpen, toggleSidebar }) {
                         Profile
                     </h1>
                     <a
-                        href="https://my-porto-rho-ten.vercel.app/"
+                        href="#"
                         className={`w-full flex items-center gap-3 cursor-pointer py-2 px-0 rounded-3xl transition-all duration-300 ${isOpen ? "" : "hidden"} ${
                             pathname === "/profile" ? "bg-gray-200 shadow-md scale-105" : "hover:bg-gray-100"
                         }`}
