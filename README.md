@@ -48,3 +48,7 @@ Jika Anda memiliki pertanyaan atau mengalami masalah, silakan buat issue baru at
 
 ## ⭐ Berikan Bintang
 Jika Anda menyukai proyek ini, berikan bintang untuk mendukung pengembangan lebih lanjut!
+
+## MIT LICENCE
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
